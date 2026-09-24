@@ -1,3 +1,4 @@
-function goToQuiz{
+function goToQuiz(){
     document.getElementById('takeQuiz').innerHTML
+    
 }
