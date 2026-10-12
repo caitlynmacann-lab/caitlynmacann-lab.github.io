@@ -90,6 +90,11 @@ p {
     padding: 0px 10px;
 }
 
+#message {
+    color: red;
+    font-size: large;
+}
+
 img {
     border-width:2px;
     border-radius: 100%;
@@ -170,5 +175,27 @@ footer {
 }
 
 #next:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+#option {
+    color: rgb(237, 252, 145);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89), rgba(27, 124, 27, 0.89));
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 1rem 3rem;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    margin: 1rem 20rem;
+}
+
+#option:hover {
+    background-image: linear-gradient(rgba(19, 138, 19, 0.89), rgba(49, 161, 49, 0.89));
+    color: rgb(243, 253, 176)
+}
+
+#option:active {
     box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
 }

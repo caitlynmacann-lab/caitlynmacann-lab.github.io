@@ -1,26 +1,32 @@
-function goToQuiz(){
-    document.getElementById('takeQuiz').innerHTML
-}
+function checkQuestion1() {
 
-function checkQuestion1(){
-    event:preventDefault()
+    event:preventDefault();
 
-    let inputBox = document.getElementById('answer1').value;
-    let answer = inputBox.value;
-    let message
+    let inputBox = document.getElementById('answer1');
+    let answer = inputBox.value; //so "answer" is whatever the user has typed
 
-    if (answer == 'hellspawn') {
+    if (answer == 'example') {
         //This is correct answer
-        message = "Correct answer: Hellspawn. You are correct"
+        document.getElementById('message').innerHTML = 'Yup';
+        let nextButton = document.getElementById('nextbutton');
+        nextButton.innerHTML = 'huh';
     } else if (answer == '') {
         //Nothing has been entered :(
-       message = "Enter an answer please."
+        document.getElementById('message').innerHTML = 'What';
     } else {
-        //This is the wrong answer- anything that isn't "hellspawn"
-       message ="Correct answer: Hellspawn. WRONG!"
+        //This is the wrong answer- anything that isn't "example"
+        document.getElementById('message').innerHTML = 'Wrong';
     }
-
-    document.getElementById('message').innerText = message;
 }
 
-document.getElementById('check').onclick = checkQuestion1
+
+function checkQuestion2(answer) {
+    if (answer == 'correct') {
+        document.getElementById('message1').innerHTML = "Correct";
+    }
+    if (answer == 'incorrect') {
+        document.getElementById('message1').innerHTML = "Nope";
+    }
+}
+
+document.getElementById('check').onclick = checkQuestion1;
