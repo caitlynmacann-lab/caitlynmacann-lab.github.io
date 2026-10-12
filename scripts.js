@@ -6,6 +6,7 @@ function checkQuestion1(){
     event:preventDefault()
 
     let inputBox = document.getElementById('answer1').value;
+    let answer = inputBox.value;
     let message
 
     if (answer == 'hellspawn') {
