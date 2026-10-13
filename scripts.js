@@ -1,3 +1,5 @@
+let score = 0;
+
 function checkQuestion1() {
 
     event:preventDefault();
@@ -8,8 +10,7 @@ function checkQuestion1() {
     if (answer == 'example') {
         //This is correct answer
         document.getElementById('message').innerHTML = 'Yup';
-        let nextButton = document.getElementById('nextbutton');
-        nextButton.innerHTML = 'huh';
+        score += 1;
     } else if (answer == '') {
         //Nothing has been entered :(
         document.getElementById('message').innerHTML = 'What';
@@ -23,6 +24,7 @@ function checkQuestion1() {
 function checkQuestion2(answer) {
     if (answer == 'correct') {
         document.getElementById('message1').innerHTML = "Correct";
+        score += 1;
     }
     if (answer == 'incorrect') {
         document.getElementById('message1').innerHTML = "Nope";
@@ -30,3 +32,5 @@ function checkQuestion2(answer) {
 }
 
 document.getElementById('check').onclick = checkQuestion1;
+
+document.getElementById("result").innerHTML = score;
