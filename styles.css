@@ -140,7 +140,7 @@ footer {
     box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-#answer1 {
+#answer {
     margin: 20px;
     padding: 7.5px 10px;
     width: 30%;
@@ -152,7 +152,7 @@ footer {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#answer1:hover {
+#answer:hover {
     background-color: rgb(237, 252, 140);
     border-color: rgb(19, 97, 19);
 }
@@ -202,105 +202,170 @@ footer {
 
 
 
-
-
-
-
-
-#answer2 {
-    margin: 20px;
-    padding: 7.5px 10px;
-    width: 30%;
-    border: solid 2px;
-    border-radius: 10px;
-    border-color: rgb(12, 92, 12);
-    background-color: rgb(232,249,119);
-    color: rgb(12, 92, 12);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#check1 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#answer2:hover {
-    background-color: rgb(237, 252, 140);
-    border-color: rgb(19, 97, 19);
+#check1:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
 }
 
-#answer3 {
-    margin: 20px;
-    padding: 7.5px 10px;
-    width: 30%;
-    border: solid 2px;
-    border-radius: 10px;
-    border-color: rgb(12, 92, 12);
-    background-color: rgb(232,249,119);
-    color: rgb(12, 92, 12);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#check1:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-#answer3:hover {
-    background-color: rgb(237, 252, 140);
-    border-color: rgb(19, 97, 19);
+#check2 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#answer4 {
-    margin: 20px;
-    padding: 7.5px 10px;
-    width: 30%;
-    border: solid 2px;
-    border-radius: 10px;
-    border-color: rgb(12, 92, 12);
-    background-color: rgb(232,249,119);
-    color: rgb(12, 92, 12);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#check2:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
 }
 
-#answer4:hover {
-    background-color: rgb(237, 252, 140);
-    border-color: rgb(19, 97, 19);
+#check2:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-#answer5 {
-    margin: 20px;
-    padding: 7.5px 10px;
-    width: 30%;
-    border: solid 2px;
-    border-radius: 10px;
-    border-color: rgb(12, 92, 12);
-    background-color: rgb(232,249,119);
-    color: rgb(12, 92, 12);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#check3 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#answer5:hover {
-    background-color: rgb(237, 252, 140);
-    border-color: rgb(19, 97, 19);
+#check3:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
 }
 
-
-
-
-
-
-#message2 {
-    color: rgb(21, 46, 13);
-    font-size: large;
+#check3:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-#message3 {
-    color: rgb(21, 46, 13);
-    font-size: large;
+#check4 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#message4 {
-    color: rgb(21, 46, 13);
-    font-size: large;
+#check4:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
 }
 
-#message5 {
-    color: rgb(21, 46, 13);
-    font-size: large;
+#check4:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-#message6 {
-    color: rgb(21, 46, 13);
-    font-size: large;
+#check5 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check5:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check5:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check6 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check6:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check6:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check7 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check7:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check7:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check8 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check8:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check8:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
