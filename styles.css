@@ -1,7 +1,7 @@
 h1 {
     color:rgb(232,249,119);
     font-size: 50px;
-    text-decoration: underline;
+    text-decoration: none;
     padding-top: 0px;
 }
 
@@ -20,7 +20,7 @@ nav {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 8px;
 }
 
 body {
@@ -37,6 +37,7 @@ button {
     cursor: pointer;
     font-size: 30px;
     padding: 20px 30px;
+    margin: 1rem 2rem 3rem 2rem;
     border: none;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
@@ -61,6 +62,7 @@ ul {
 ul li a {
     color: white;
     padding: 14px 16px;
+    padding-bottom: 10px;
 }
 
 ul li a:hover {
@@ -72,6 +74,30 @@ ul li a:hover {
 
 a:link {
     text-decoration: none
+}
+
+a {
+    color: rgb(232,249,119);
+}
+
+#um:hover {
+    text-decoration: underline;
+}
+
+li {
+    color: white;
+    padding: 0.5rem;
+}
+
+#infolist {
+    background-color:rgb(40, 124, 40);
+    padding: 1.5rem;
+    padding-left: 2.5rem;
+    margin: 2rem 22.5%;
+    width: 50%;
+    align-content: center;
+    text-align: left;
+    border-radius: 20px;
 }
 
 #footerlinks {
@@ -102,12 +128,16 @@ img {
     box-shadow: 1px 1px 20px 5px rgb(21, 46, 13);
     padding: 1px;
     margin: 30px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 
 footer {
     background-color: rgb(21, 46, 13);
     color: white; 
     padding: 5px;
+    margin-top: 3rem;
 }
 
 #questionbanner {
@@ -200,7 +230,7 @@ footer {
     box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-
+/* This is an utterly enormous list of the "check" button that runs the function for each page. */
 
 #check1 {
     color: rgb(232, 249, 119);
@@ -367,5 +397,257 @@ footer {
 }
 
 #check8:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check9 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check9:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check9:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check10 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check10:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check10:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check11 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check11:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check11:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check12 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check12:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check12:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check13 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check13:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check13:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check14 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check14:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check14:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check15 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check15:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check15:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check16 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check16:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check16:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check17 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check17:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check17:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check18 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check18:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check18:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check19 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check19:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check19:active {
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+#check20 {
+    color: rgb(232, 249, 119);
+    background-image: linear-gradient(rgba(12, 92, 12, 0.89),rgba(68, 139, 32, 0.78));
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#check20:hover {
+    background-image: linear-gradient(rgba(21, 99, 21, 0.89),rgba(85, 155, 50, 0.78));
+    color: rgb(237, 252, 145)
+}
+
+#check20:active {
     box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.5);
 }

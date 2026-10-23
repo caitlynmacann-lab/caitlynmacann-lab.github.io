@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results</title>
+    <title>Finished!</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,40 +11,35 @@
         <ul>
             <li><a id="goHome" href="index.html">Home</a></li>
             <li><a id="takeQuiz" href="quiz.html">Take Quiz</a></li>
+            <li><a id="takeQuiz" href="information.html">Info</a></li>
         </ul>
     </nav>
     
     <div>
-        <h1 id="questionbanner">RESULTS PAGE</h1>
+        <h1 id="questionbanner">YOU FINISHED THE QUIZ :D</h1>
     </div>
 
     <div>
         <p id="subtitle"></p>
 
-        <p>Thank you for taking the quiz! Good luck with your exam :D</p>
+        <p>Thank you for taking the quiz! I hope you learned something and have become more confident in your definitions.</p>
+        <p> --- </p>
+        <p>Good luck with your exams and safe travels!</p>
+        <p> --- </p>
+        <p style="color:rgb(36, 82, 21)"><strong>What would you like to do now?</strong></p>
 
-        <!-- form onsubmit="checkQuestion1()"
-            //input type="text" id="answer1"
-            //might be buttn -->
-
-        <p id="result"></p>
+        <button onclick="document.location='index.html'">BACK HOME</button>
+        <button onclick="document.location='quiz.html'">RETAKE QUIZ</button>
     </div>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
     <div id="foot">
         <footer><p>Navigation: </p>
             <a id="footerlinks" href="index.html">Home</a>
             <a id="footerlinks" href="quiz.html"> To Quiz</a>
+            <a id="footerlinks" href="information.html"> Help</a>
             <p>---------------</p>
-            <p>All definitions by the lovely Mrs Kumar</p>
-            <p>Current image credit to placecats</p>
+            <p>All<a id="footerlinks" href="https://docs.google.com/document/d/194V2FYOfoWSOQawJHNAS91E30Q3ho1i1sWZtbOZ3-y0/edit?tab=t.0">definitions</a>by the lovely Mrs Kumar</p>            
+            <p>Current image credit to unsplash</p>
         </footer>
     </div>
 
